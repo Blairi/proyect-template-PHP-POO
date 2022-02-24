@@ -1,11 +1,11 @@
 {
-    "name": "juandelatorre/bienes-raices-poo_php_inicio",
-    "description": "Creando un proyecto con POO",
+    "name": "axela/super-news",
+    "description": "App Web para crear y publicar noticias o notas",
     "type": "project",
     "authors": [
         {
-            "name": "Juan Pablo De la torre Valdez",
-            "email": "ptorre@creativaweb.mx"
+            "name": "Axel Montiel",
+            "email": "axel.avi.fer@gmail.com"
         }
     ],
     "require": {
