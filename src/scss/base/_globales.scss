@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 html {
     font-size: 62.5%;
+    @include tablet{
+        font-size: 42.5%;
+    }
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif, Arial, Helvetica, sans-serif
 }
@@ -9,6 +12,9 @@ html {
 }
 *{
     font-size: 1.7rem;
+}
+body{
+    margin-top: 7rem;
 }
 .contenedor{
     width: 94%;
@@ -33,10 +39,19 @@ h4{
 }
 p{
     font-weight: $regular;
+    color: $gris-generico;
 }
 span{
     font-weight: $semi-bold;
 }
 img{
     width: 100%;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: $negro;
 }
